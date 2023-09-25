@@ -1,0 +1,1087 @@
+[DEBUG] 2023-08-31 10:57:38.641 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-08-31 10:57:38.791 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-08-31 10:57:38.792 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-08-31 10:57:38.858 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b09d1c3
+[DEBUG] 2023-08-31 10:57:39.097 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-08-31 10:57:39.099 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-08-31 10:57:39.115 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-08-31 10:57:39.160 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-08-31 10:57:39.164 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-08-31 10:57:39.170 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-08-31 10:57:39.175 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-08-31 10:57:39.181 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-08-31 10:57:39.193 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @762efe5d
+[DEBUG] 2023-08-31 10:57:39.199 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-08-31 10:57:39.200 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-08-31 10:57:39.204 [main] PlatformDependent - maxDirectMemory: 2103443456 bytes (maybe)
+[DEBUG] 2023-08-31 10:57:39.206 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\Thinroot\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-08-31 10:57:39.207 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-08-31 10:57:39.209 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-08-31 10:57:39.215 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-08-31 10:57:39.216 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-08-31 10:57:39.227 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-08-31 10:57:39.230 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-08-31 10:57:39.341 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-08-31 10:57:39.611 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-08-31 10:57:39.613 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-08-31 10:57:40.356 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-08-31 10:57:40.358 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-08-31 10:57:40.508 [main] GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-08-31 10:57:40.645 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2023-08-31 10:57:40.736 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-08-31 10:57:40.741 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-08-31 10:57:41.114 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2023-08-31 10:57:41.115 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2023-08-31 10:57:41.116 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-08-31 10:57:41.117 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-08-31 10:57:41.118 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-08-31 10:57:41.121 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-08-31 10:57:41.128 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-08-31 10:57:41.129 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-08-31 10:57:41.132 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-08-31 10:57:41.143 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-08-31 10:57:41.143 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-08-31 10:57:41.147 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-08-31 10:57:41.279 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-08-31 10:57:41.293 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-08-31 10:57:41.303 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-08-31 10:57:43.890 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 4536 (auto-detected)
+[DEBUG] 2023-08-31 10:57:43.902 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-08-31 10:57:43.903 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-08-31 10:57:43.937 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-08-31 10:57:43.944 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-08-31 10:57:44.023 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:12:f7:e4 (auto-detected)
+[DEBUG] 2023-08-31 10:57:44.430 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-08-31 10:57:44.433 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-08-31 10:57:44.433 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5939e417
+[DEBUG] 2023-08-31 10:57:44.626 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-08-31 10:57:44.626 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-08-31 10:57:44.628 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-08-31 10:57:44.630 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-08-31 10:57:44.631 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[DEBUG] 2023-08-31 10:57:48.299 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-08-31 10:57:57.685 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:57:57.702 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:57:57.709 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:00.564 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:00.575 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:00.585 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:00.744 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:00.754 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:00.767 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:01.009 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:01.021 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:01.031 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:01.155 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:01.166 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:01.169 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:01.253 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:01.258 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:01.265 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:01.378 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:01.391 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:01.399 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:01.504 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:01.517 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:01.528 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:01.638 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:01.652 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:01.655 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:01.768 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:01.784 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:01.793 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:01.896 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:01.901 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:01.912 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 10:58:02.101 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 10:58:02.119 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 10:58:02.133 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:14:30.149 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-08-31 11:14:30.216 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-08-31 11:14:30.217 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-08-31 11:14:30.271 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5d9bb69b
+[DEBUG] 2023-08-31 11:14:30.588 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-08-31 11:14:30.598 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-08-31 11:14:30.616 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-08-31 11:14:30.628 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-08-31 11:14:30.638 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-08-31 11:14:30.668 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-08-31 11:14:30.679 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-08-31 11:14:30.690 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-08-31 11:14:30.700 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @762efe5d
+[DEBUG] 2023-08-31 11:14:30.709 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-08-31 11:14:30.711 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-08-31 11:14:30.722 [main] PlatformDependent - maxDirectMemory: 2103443456 bytes (maybe)
+[DEBUG] 2023-08-31 11:14:30.745 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\Thinroot\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-08-31 11:14:30.754 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-08-31 11:14:30.756 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-08-31 11:14:30.773 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-08-31 11:14:30.775 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-08-31 11:14:30.787 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-08-31 11:14:30.789 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-08-31 11:14:30.892 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-08-31 11:14:31.101 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-08-31 11:14:31.102 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-08-31 11:14:31.856 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-08-31 11:14:31.858 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-08-31 11:14:32.003 [main] GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-08-31 11:14:32.129 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2023-08-31 11:14:32.220 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-08-31 11:14:32.222 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-08-31 11:14:32.540 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2023-08-31 11:14:32.541 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2023-08-31 11:14:32.543 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-08-31 11:14:32.546 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-08-31 11:14:32.547 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-08-31 11:14:32.548 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-08-31 11:14:32.550 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-08-31 11:14:32.551 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-08-31 11:14:32.552 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-08-31 11:14:32.556 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-08-31 11:14:32.557 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-08-31 11:14:32.559 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-08-31 11:14:32.743 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-08-31 11:14:32.788 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-08-31 11:14:32.861 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-08-31 11:14:37.161 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 12708 (auto-detected)
+[DEBUG] 2023-08-31 11:14:37.167 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-08-31 11:14:37.168 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-08-31 11:14:37.201 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-08-31 11:14:37.205 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-08-31 11:14:37.241 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:12:f7:e4 (auto-detected)
+[DEBUG] 2023-08-31 11:14:37.391 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-08-31 11:14:37.392 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-08-31 11:14:37.392 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@606ad598
+[DEBUG] 2023-08-31 11:14:37.461 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-08-31 11:14:37.461 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-08-31 11:14:37.461 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-08-31 11:14:37.462 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-08-31 11:14:37.462 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[DEBUG] 2023-08-31 11:14:38.402 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-08-31 11:14:39.068 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xae7362d2c5ce03b1
+[INFO ] 2023-08-31 11:14:47.030 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:14:47.808 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:14:47.809 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:14:47.904 [main] BaseClass - Logo is displayed
+[INFO ] 2023-08-31 11:14:48.709 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:14:56.651 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:14:56.899 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:14:56.899 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:14:56.942 [main] BaseClass - Logo is displayed
+[INFO ] 2023-08-31 11:14:56.942 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 11:14:58.128 [main] BaseClass - Screenshot taken for SignUp
+[INFO ] 2023-08-31 11:14:58.129 [main] BaseClass - Navigated to Signup/Register page
+[INFO ] 2023-08-31 11:14:58.541 [main] BaseClass - Screenshot taken for SignUp_data
+[INFO ] 2023-08-31 11:15:02.878 [main] BaseClass - Provided Name and Email and clicked Signup button
+[INFO ] 2023-08-31 11:15:02.908 [main] BaseClass - Signup form text visible and verified
+[INFO ] 2023-08-31 11:15:03.776 [main] BaseClass - Provided Title,Password,DoB, and checked check boxes
+[INFO ] 2023-08-31 11:15:06.858 [main] BaseClass - Provided Name,company, address,country, state,city,pincode,mobile no
+[INFO ] 2023-08-31 11:15:07.041 [main] BaseClass - Screenshot taken for Register_data
+[INFO ] 2023-08-31 11:15:12.507 [main] BaseClass - Submitted the registration form
+[INFO ] 2023-08-31 11:15:13.014 [main] BaseClass - Account is created
+[INFO ] 2023-08-31 11:15:25.035 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 11:15:25.633 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 11:15:29.523 [main] BaseClass - Clicked Delete Account
+[INFO ] 2023-08-31 11:15:35.209 [main] BaseClass - Deletion of account confirmation message received and clicked Continue..
+[INFO ] 2023-08-31 11:15:37.335 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:15:48.418 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:15:49.090 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:15:49.091 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:15:49.462 [main] BaseClass - Logo is displayed
+[INFO ] 2023-08-31 11:15:49.462 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 11:15:53.109 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 11:15:54.561 [main] BaseClass - Screenshot taken for Login_Data
+[INFO ] 2023-08-31 11:16:03.093 [main] BaseClass - Entered loginId, password and clicked login button 
+[INFO ] 2023-08-31 11:16:03.186 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 11:16:03.839 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 11:16:06.261 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:16:15.900 [main] BaseClass - Launched the chrome browser
+[DEBUG] 2023-08-31 11:16:16.868 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:16.898 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:16.918 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:19.916 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:19.925 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:19.930 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:20.065 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:20.072 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:20.080 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:20.260 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:20.278 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:20.287 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:20.421 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:20.426 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:20.433 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:20.547 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:20.551 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:20.556 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:20.694 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:20.703 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:20.717 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:20.836 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:20.840 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:20.904 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:21.138 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:21.141 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:21.145 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:21.336 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:21.362 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:21.380 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:21.548 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:21.551 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:21.555 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 11:16:21.659 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 11:16:21.666 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 11:16:21.669 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-08-31 11:16:22.199 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:16:22.199 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:16:22.200 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 11:16:24.572 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 11:16:25.691 [main] BaseClass - Screenshot taken for Login_Data
+[INFO ] 2023-08-31 11:16:29.788 [main] BaseClass - Entered loginId, password and clicked login button 
+[INFO ] 2023-08-31 11:16:31.927 [main] BaseClass - Verifed for Invalid Login cerdentials
+[INFO ] 2023-08-31 11:16:32.154 [main] BaseClass - Screenshot taken for invalid_login
+[INFO ] 2023-08-31 11:16:41.225 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:16:55.200 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:16:55.448 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:16:55.448 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:16:55.448 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 11:16:57.713 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 11:16:58.667 [main] BaseClass - Screenshot taken for Login_Data
+[INFO ] 2023-08-31 11:17:07.544 [main] BaseClass - Entered loginId, password and clicked login button 
+[INFO ] 2023-08-31 11:17:07.588 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 11:17:07.881 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 11:17:12.416 [main] BaseClass - Logged out
+[INFO ] 2023-08-31 11:17:12.448 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 11:17:12.833 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:17:21.645 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:17:21.871 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:17:21.871 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:17:21.873 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 11:17:23.747 [main] BaseClass - Screenshot taken for SignUp
+[INFO ] 2023-08-31 11:17:23.747 [main] BaseClass - Navigated to Signup/Register page
+[INFO ] 2023-08-31 11:17:24.219 [main] BaseClass - Screenshot taken for Registered_data
+[INFO ] 2023-08-31 11:17:26.231 [main] BaseClass - Provided Name and already Registered Email and clicked Signup button
+[INFO ] 2023-08-31 11:17:26.331 [main] BaseClass - Email Already exist message received
+[INFO ] 2023-08-31 11:17:26.830 [main] BaseClass - Screenshot taken for Email_Exist
+[INFO ] 2023-08-31 11:17:28.044 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:17:38.036 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:17:38.695 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:17:38.696 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:17:38.696 [main] BaseClass - Navigating to contact us page
+[INFO ] 2023-08-31 11:17:43.678 [main] BaseClass - Navigated to Contact us Page
+[INFO ] 2023-08-31 11:17:43.915 [main] BaseClass - Screenshot taken for ContactUsTest
+[INFO ] 2023-08-31 11:17:45.278 [main] BaseClass - Uploading the file
+[INFO ] 2023-08-31 11:17:49.645 [main] BaseClass - Screenshot taken for ContactUs_data
+[INFO ] 2023-08-31 11:17:49.934 [main] BaseClass - Contact us form filled and clicked submit button
+[INFO ] 2023-08-31 11:17:51.962 [main] BaseClass - Accepted the popup
+[INFO ] 2023-08-31 11:17:52.109 [main] BaseClass - Verified the Contact Us page Confirmation message
+[INFO ] 2023-08-31 11:17:52.678 [main] BaseClass - Screenshot taken for Contact_Us_Msg
+[INFO ] 2023-08-31 11:17:52.679 [main] BaseClass - Navigated back to home page
+[INFO ] 2023-08-31 11:17:54.496 [main] BaseClass - Screenshot taken for hometest_fail
+[INFO ] 2023-08-31 11:17:54.496 [main] BaseClass - Home Page Verification Failed
+[INFO ] 2023-08-31 11:17:55.579 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:18:04.702 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:18:04.918 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:18:04.919 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:18:04.919 [main] BaseClass - Navigating to product page
+[INFO ] 2023-08-31 11:18:08.038 [main] BaseClass - Navigated to All product page
+[INFO ] 2023-08-31 11:18:08.081 [main] BaseClass - All Product Page Verification done!
+[INFO ] 2023-08-31 11:18:08.282 [main] BaseClass - Screenshot taken for Products_Text
+[INFO ] 2023-08-31 11:18:08.753 [main] BaseClass - Screenshot taken for Product_View
+[INFO ] 2023-08-31 11:18:10.523 [main] BaseClass - Getting the First Product from the Product Page
+[INFO ] 2023-08-31 11:18:10.574 [main] BaseClass - Navigated to selected Single Product page 
+[INFO ] 2023-08-31 11:18:10.748 [main] BaseClass - Screenshot taken for Single_Product_page
+[INFO ] 2023-08-31 11:18:10.839 [main] BaseClass - Products details are verified
+[INFO ] 2023-08-31 11:18:11.382 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:18:20.964 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:18:21.213 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:18:21.213 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:18:21.214 [main] BaseClass - Navigating to product page
+[INFO ] 2023-08-31 11:18:24.338 [main] BaseClass - Navigation to All Product page Failed
+[INFO ] 2023-08-31 11:18:24.567 [main] BaseClass - Screenshot taken for All_Product_Nav_Fail
+[INFO ] 2023-08-31 11:18:25.870 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:19:18.644 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:19:18.862 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:19:18.862 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:19:21.255 [main] BaseClass - Screenshot taken for Subscription_Data
+[INFO ] 2023-08-31 11:19:21.355 [main] BaseClass - Verified for Subscription success
+[INFO ] 2023-08-31 11:19:21.729 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:19:29.131 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:19:29.349 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:19:29.349 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:19:29.350 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 11:19:31.882 [main] BaseClass - Subscription text verifyed
+[INFO ] 2023-08-31 11:19:32.164 [main] BaseClass - Screenshot taken for Cart_subscription_data
+[INFO ] 2023-08-31 11:19:32.238 [main] BaseClass - Entered email id and clicked the button
+[INFO ] 2023-08-31 11:19:32.275 [main] BaseClass - Subscription success message verified
+[INFO ] 2023-08-31 11:19:32.794 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:19:42.696 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:19:43.239 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:19:43.240 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:19:43.240 [main] BaseClass - Navigating to product page
+[INFO ] 2023-08-31 11:19:51.061 [main] BaseClass - Hovered on the product
+[INFO ] 2023-08-31 11:19:51.061 [main] BaseClass - Adding product to cart
+[INFO ] 2023-08-31 11:19:51.479 [main] BaseClass - Continuing Shopping..
+[INFO ] 2023-08-31 11:19:54.006 [main] BaseClass - Hovered on the product
+[INFO ] 2023-08-31 11:19:54.006 [main] BaseClass - Adding product to cart
+[INFO ] 2023-08-31 11:19:54.457 [main] BaseClass - Navigating to Cart page
+[INFO ] 2023-08-31 11:19:54.862 [main] BaseClass - Screenshot taken for Product_added
+[INFO ] 2023-08-31 11:20:02.313 [main] BaseClass - Verified Cart Page for product added
+[INFO ] 2023-08-31 11:20:02.436 [main] BaseClass - Screenshot taken for Product_In_Cart
+[INFO ] 2023-08-31 11:20:02.535 [main] BaseClass - Verified Price, Quantity And Total price
+[INFO ] 2023-08-31 11:20:02.934 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:20:12.427 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:20:12.645 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:20:12.645 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:20:12.645 [main] BaseClass - Navigating to product page
+[INFO ] 2023-08-31 11:20:16.125 [main] BaseClass - Screenshot taken for Product_View
+[INFO ] 2023-08-31 11:21:05.580 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:21:14.080 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:21:14.284 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:21:14.284 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:21:15.650 [main] BaseClass - Added products from home page to the cart
+[INFO ] 2023-08-31 11:21:15.650 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 11:21:18.729 [main] BaseClass - Cart page verified
+[INFO ] 2023-08-31 11:21:19.151 [main] BaseClass - Screenshot taken for Product_added_TOCart
+[INFO ] 2023-08-31 11:21:19.153 [main] BaseClass - Navigating to checkout
+[INFO ] 2023-08-31 11:21:21.439 [main] BaseClass - Navigating to Registration/SignUp page
+[INFO ] 2023-08-31 11:21:22.128 [main] BaseClass - Screenshot taken for SignUp
+[INFO ] 2023-08-31 11:21:22.129 [main] BaseClass - Navigated to Signup/Register page
+[INFO ] 2023-08-31 11:21:22.958 [main] BaseClass - Screenshot taken for SignUp_data
+[INFO ] 2023-08-31 11:21:27.724 [main] BaseClass - Provided Name and Email and clicked Signup button
+[INFO ] 2023-08-31 11:21:27.760 [main] BaseClass - Signup form text visible and verified
+[INFO ] 2023-08-31 11:21:28.436 [main] BaseClass - Provided Title,Password,DoB, and checked check boxes
+[INFO ] 2023-08-31 11:21:32.059 [main] BaseClass - Provided Name,company, address,country, state,city,pincode,mobile no
+[INFO ] 2023-08-31 11:21:32.276 [main] BaseClass - Screenshot taken for Register_data
+[INFO ] 2023-08-31 11:21:40.269 [main] BaseClass - Submitted the registration form
+[INFO ] 2023-08-31 11:21:40.384 [main] BaseClass - Account is created
+[INFO ] 2023-08-31 11:21:46.285 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 11:21:46.880 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 11:21:47.891 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 11:21:50.725 [main] BaseClass - Navigating to checkout
+[INFO ] 2023-08-31 11:21:55.090 [main] BaseClass - Delivery Address is verified
+[INFO ] 2023-08-31 11:21:55.383 [main] BaseClass - Screenshot taken for Delivery_address
+[INFO ] 2023-08-31 11:21:55.617 [main] BaseClass - Verified the product in the checkout page
+[INFO ] 2023-08-31 11:21:55.824 [main] BaseClass - Screenshot taken for Order_In_Chkout
+[INFO ] 2023-08-31 11:21:56.132 [main] BaseClass - Verifyied place order message and clicking place order button
+[INFO ] 2023-08-31 11:22:00.187 [main] BaseClass - Screenshot taken for Payment_details
+[INFO ] 2023-08-31 11:22:04.765 [main] BaseClass - Card details filled and Clicked Payment button
+[INFO ] 2023-08-31 11:22:04.813 [main] BaseClass - Verified payment success message
+[INFO ] 2023-08-31 11:22:04.814 [main] BaseClass - Clicking Account Delete button
+[INFO ] 2023-08-31 11:22:14.208 [main] BaseClass - Deletion of account confirmation message received and clicked Continue..
+[INFO ] 2023-08-31 11:22:15.759 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:22:24.030 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:22:24.527 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:22:24.528 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:22:24.528 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 11:22:30.368 [main] BaseClass - Screenshot taken for SignUp
+[INFO ] 2023-08-31 11:22:30.368 [main] BaseClass - Navigated to Signup/Register page
+[INFO ] 2023-08-31 11:22:31.580 [main] BaseClass - Screenshot taken for SignUp_data
+[INFO ] 2023-08-31 11:22:38.051 [main] BaseClass - Provided Name and Email and clicked Signup button
+[INFO ] 2023-08-31 11:22:38.151 [main] BaseClass - Signup form text visible and verified
+[INFO ] 2023-08-31 11:22:40.804 [main] BaseClass - Provided Title,Password,DoB, and checked check boxes
+[INFO ] 2023-08-31 11:22:44.550 [main] BaseClass - Provided Name,company, address,country, state,city,pincode,mobile no
+[INFO ] 2023-08-31 11:22:44.737 [main] BaseClass - Screenshot taken for Register_data
+[INFO ] 2023-08-31 11:22:51.015 [main] BaseClass - Submitted the registration form
+[INFO ] 2023-08-31 11:22:51.814 [main] BaseClass - Account is created
+[INFO ] 2023-08-31 11:23:00.916 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 11:23:01.702 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 11:23:05.748 [main] BaseClass - Added products from home page to the cart
+[INFO ] 2023-08-31 11:23:05.750 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 11:23:10.204 [main] BaseClass - Cart page verified
+[INFO ] 2023-08-31 11:23:10.763 [main] BaseClass - Screenshot taken for Product_added_TOCart
+[INFO ] 2023-08-31 11:23:10.764 [main] BaseClass - Navigating to checkout
+[INFO ] 2023-08-31 11:23:14.415 [main] BaseClass - Delivery Address is verified
+[INFO ] 2023-08-31 11:23:14.701 [main] BaseClass - Screenshot taken for Delivery_address
+[INFO ] 2023-08-31 11:23:14.971 [main] BaseClass - Verified the product in the checkout page
+[INFO ] 2023-08-31 11:23:15.241 [main] BaseClass - Screenshot taken for Order_In_Chkout
+[INFO ] 2023-08-31 11:23:15.564 [main] BaseClass - Verifyied place order message and clicking place order button
+[INFO ] 2023-08-31 11:23:19.668 [main] BaseClass - Screenshot taken for Payment_details
+[INFO ] 2023-08-31 11:23:23.765 [main] BaseClass - Card details filled and Clicked Payment button
+[INFO ] 2023-08-31 11:23:23.794 [main] BaseClass - Verified payment success message
+[INFO ] 2023-08-31 11:23:23.795 [main] BaseClass - Clicking Account Delete button
+[INFO ] 2023-08-31 11:23:31.586 [main] BaseClass - Deletion of account confirmation message received and clicked Continue..
+[INFO ] 2023-08-31 11:23:35.417 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:23:45.956 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:23:46.525 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:23:46.525 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:23:46.526 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 11:23:49.870 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 11:23:50.995 [main] BaseClass - Screenshot taken for Login_Data
+[INFO ] 2023-08-31 11:23:59.158 [main] BaseClass - Entered loginId, password and clicked login button 
+[INFO ] 2023-08-31 11:23:59.186 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 11:23:59.391 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 11:24:01.446 [main] BaseClass - Added products from home page to the cart
+[INFO ] 2023-08-31 11:24:01.446 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 11:24:04.267 [main] BaseClass - Cart page verified
+[INFO ] 2023-08-31 11:24:04.446 [main] BaseClass - Screenshot taken for Product_added_TOCart
+[INFO ] 2023-08-31 11:24:04.446 [main] BaseClass - Navigating to checkout
+[INFO ] 2023-08-31 11:24:10.057 [main] BaseClass - Verified the product in the checkout page
+[INFO ] 2023-08-31 11:24:10.429 [main] BaseClass - Screenshot taken for Order_In_Chkout
+[INFO ] 2023-08-31 11:24:11.012 [main] BaseClass - Verifyied place order message and clicking place order button
+[INFO ] 2023-08-31 11:24:18.239 [main] BaseClass - Screenshot taken for Payment_details
+[INFO ] 2023-08-31 11:24:22.778 [main] BaseClass - Card details filled and Clicked Payment button
+[INFO ] 2023-08-31 11:24:22.807 [main] BaseClass - Verified payment success message
+[INFO ] 2023-08-31 11:24:23.242 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:24:32.051 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:24:32.737 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:24:32.738 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:24:36.019 [main] BaseClass - Added products from home page to the cart
+[INFO ] 2023-08-31 11:24:36.021 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 11:24:41.765 [main] BaseClass - Cart page verified
+[INFO ] 2023-08-31 11:24:42.303 [main] BaseClass - Screenshot taken for Product_added_TOCart
+[INFO ] 2023-08-31 11:24:42.477 [main] BaseClass - Verified Cart Page for product added
+[INFO ] 2023-08-31 11:24:42.847 [main] BaseClass - Screenshot taken for Product_In_Cart
+[INFO ] 2023-08-31 11:24:44.037 [main] BaseClass - Removed Men Tshirt from the cart
+[INFO ] 2023-08-31 11:24:46.131 [main] BaseClass - Verified Product removal from cart 
+[INFO ] 2023-08-31 11:24:46.370 [main] BaseClass - Screenshot taken for Product_Removal
+[INFO ] 2023-08-31 11:24:47.176 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:24:54.315 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:24:54.849 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:24:54.850 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:24:55.428 [main] BaseClass - Category is visible
+[INFO ] 2023-08-31 11:24:55.957 [main] BaseClass - Screenshot taken for Category_Txt
+[INFO ] 2023-08-31 11:24:56.249 [main] BaseClass - Getting WOMEN Category items
+[INFO ] 2023-08-31 11:24:57.087 [main] BaseClass - Getting DRESS from the catgory
+[INFO ] 2023-08-31 11:24:59.130 [main] BaseClass - Navigation to Category page failed
+[INFO ] 2023-08-31 11:24:59.662 [main] BaseClass - Screenshot taken for Category_page_fail
+[INFO ] 2023-08-31 11:25:01.159 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:25:11.573 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:25:12.207 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:25:12.208 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:25:12.208 [main] BaseClass - Navigating to product page
+[INFO ] 2023-08-31 11:26:01.822 [main] BaseClass - Verified Brands are displayed
+[INFO ] 2023-08-31 11:26:02.347 [main] BaseClass - Screenshot taken for Brand_Product
+[INFO ] 2023-08-31 11:26:02.383 [main] BaseClass - Navigating to (6)
+POLO Brand Page
+[INFO ] 2023-08-31 11:26:07.723 [main] BaseClass - Navigated to brand Page and items are displayed
+[INFO ] 2023-08-31 11:26:08.140 [main] BaseClass - Screenshot taken for Brand - Polo ProductsBrand_page
+[INFO ] 2023-08-31 11:26:08.141 [main] BaseClass - Navigating to another brand
+[INFO ] 2023-08-31 11:26:10.745 [main] BaseClass - Navigated to brand Page and items are displayed
+[INFO ] 2023-08-31 11:26:11.577 [main] BaseClass - Screenshot taken for Brand - Babyhug ProductsBrand_page
+[INFO ] 2023-08-31 11:26:12.872 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:26:23.426 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:26:23.958 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:26:23.959 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:26:23.959 [main] BaseClass - Navigating to product page
+[INFO ] 2023-08-31 11:26:29.966 [main] BaseClass - Navigated to All product page
+[INFO ] 2023-08-31 11:26:30.055 [main] BaseClass - All Product Page Verification done!
+[INFO ] 2023-08-31 11:26:30.846 [main] BaseClass - Screenshot taken for Products_Text
+[INFO ] 2023-08-31 11:26:36.055 [main] BaseClass - Screenshot taken for Search_result
+[INFO ] 2023-08-31 11:26:36.056 [main] BaseClass - Verified the search result
+[INFO ] 2023-08-31 11:26:55.801 [main] BaseClass - Total items added to cart is :14
+[INFO ] 2023-08-31 11:27:00.052 [main] BaseClass - Cart is verified for all the products added after search
+[INFO ] 2023-08-31 11:27:00.186 [main] BaseClass - Screenshot taken for Search_AddAll
+[INFO ] 2023-08-31 11:27:01.528 [main] BaseClass - Navigating to SignUp page
+[INFO ] 2023-08-31 11:27:01.595 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 11:27:02.908 [main] BaseClass - Screenshot taken for Login_Data
+[INFO ] 2023-08-31 11:27:11.675 [main] BaseClass - Entered loginId, password and clicked login button 
+[INFO ] 2023-08-31 11:27:11.741 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 11:27:12.968 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 11:27:13.975 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 11:27:18.394 [main] BaseClass - Cart is verified for all the products added after search
+[INFO ] 2023-08-31 11:27:18.861 [main] BaseClass - Screenshot taken for Search_AddAll
+[INFO ] 2023-08-31 11:27:19.526 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:27:28.164 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:27:28.688 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:27:28.689 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:27:28.689 [main] BaseClass - Navigating to product page
+[INFO ] 2023-08-31 11:27:36.971 [main] BaseClass - Navigated to All product page
+[INFO ] 2023-08-31 11:27:37.055 [main] BaseClass - All Product Page Verification done!
+[INFO ] 2023-08-31 11:27:37.391 [main] BaseClass - Screenshot taken for Products_Text
+[INFO ] 2023-08-31 11:27:37.689 [main] BaseClass - Screenshot taken for Product_View
+[INFO ] 2023-08-31 11:27:40.376 [main] BaseClass - Getting the First Product from the Product Page
+[INFO ] 2023-08-31 11:27:40.407 [main] BaseClass - Navigated to selected Single Product page 
+[INFO ] 2023-08-31 11:27:40.646 [main] BaseClass - Screenshot taken for Single_Product_page
+[INFO ] 2023-08-31 11:27:40.673 [main] BaseClass - Products details are verified
+[INFO ] 2023-08-31 11:27:40.724 [main] BaseClass - Review Text heading's dispaly is verified
+[INFO ] 2023-08-31 11:27:41.201 [main] BaseClass - Screenshot taken for Review_data
+[INFO ] 2023-08-31 11:27:41.261 [main] BaseClass - Review form filled and sbumitted
+[INFO ] 2023-08-31 11:27:41.287 [main] BaseClass - Review Success message verified
+[INFO ] 2023-08-31 11:27:41.739 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:27:51.731 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:27:52.254 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:27:52.255 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:27:53.021 [main] BaseClass - Scrolled to the Recommended section and verified text
+[INFO ] 2023-08-31 11:27:53.719 [main] BaseClass - Screenshot taken for Recommended_section
+[INFO ] 2023-08-31 11:29:42.460 [main] BaseClass - Added recommended product to the cart and navigating to cart
+[INFO ] 2023-08-31 11:29:42.494 [main] BaseClass - Verified recommened product addition to the cart
+[INFO ] 2023-08-31 11:29:42.711 [main] BaseClass - Screenshot taken for Recommended_Product
+[INFO ] 2023-08-31 11:29:43.194 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:29:50.688 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:29:50.888 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:29:50.888 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:29:50.888 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 11:29:53.002 [main] BaseClass - Screenshot taken for SignUp
+[INFO ] 2023-08-31 11:29:53.002 [main] BaseClass - Navigated to Signup/Register page
+[INFO ] 2023-08-31 11:29:53.443 [main] BaseClass - Screenshot taken for SignUp_data
+[INFO ] 2023-08-31 11:29:58.047 [main] BaseClass - Provided Name and Email and clicked Signup button
+[INFO ] 2023-08-31 11:29:58.085 [main] BaseClass - Signup form text visible and verified
+[INFO ] 2023-08-31 11:29:58.828 [main] BaseClass - Provided Title,Password,DoB, and checked check boxes
+[INFO ] 2023-08-31 11:30:01.885 [main] BaseClass - Provided Name,company, address,country, state,city,pincode,mobile no
+[INFO ] 2023-08-31 11:30:02.102 [main] BaseClass - Screenshot taken for Register_data
+[INFO ] 2023-08-31 11:30:07.364 [main] BaseClass - Submitted the registration form
+[INFO ] 2023-08-31 11:30:07.979 [main] BaseClass - Account is created
+[INFO ] 2023-08-31 11:30:16.573 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 11:30:16.852 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 11:30:20.437 [main] BaseClass - Added products from home page to the cart
+[INFO ] 2023-08-31 11:30:20.438 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 11:30:23.699 [main] BaseClass - Cart page verified
+[INFO ] 2023-08-31 11:30:24.228 [main] BaseClass - Screenshot taken for Product_added_TOCart
+[INFO ] 2023-08-31 11:30:24.229 [main] BaseClass - Navigating to checkout
+[INFO ] 2023-08-31 11:30:28.045 [main] BaseClass - Delivery Address is verified
+[INFO ] 2023-08-31 11:30:28.338 [main] BaseClass - Screenshot taken for Delivery_address
+[INFO ] 2023-08-31 11:30:28.527 [main] BaseClass - Billing Address is verified
+[INFO ] 2023-08-31 11:30:28.744 [main] BaseClass - Screenshot taken for Billing_address
+[INFO ] 2023-08-31 11:30:30.853 [main] BaseClass - Clicked Delete Account
+[INFO ] 2023-08-31 11:30:36.813 [main] BaseClass - Deletion of account confirmation message received and clicked Continue..
+[INFO ] 2023-08-31 11:30:39.006 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:30:48.380 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:30:48.930 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:30:48.930 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:30:51.935 [main] BaseClass - Added products from home page to the cart
+[INFO ] 2023-08-31 11:30:51.936 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 11:30:57.507 [main] BaseClass - Cart page verified
+[INFO ] 2023-08-31 11:30:57.926 [main] BaseClass - Screenshot taken for Product_added_TOCart
+[INFO ] 2023-08-31 11:30:57.926 [main] BaseClass - Navigating to checkout
+[INFO ] 2023-08-31 11:31:46.817 [main] BaseClass - Navigating to SignUp page
+[INFO ] 2023-08-31 11:31:47.282 [main] BaseClass - Screenshot taken for SignUp_data
+[INFO ] 2023-08-31 11:31:52.800 [main] BaseClass - Provided Name and Email and clicked Signup button
+[INFO ] 2023-08-31 11:31:53.706 [main] BaseClass - Provided Title,Password,DoB, and checked check boxes
+[INFO ] 2023-08-31 11:31:58.344 [main] BaseClass - Provided Name,company, address,country, state,city,pincode,mobile no
+[INFO ] 2023-08-31 11:31:58.628 [main] BaseClass - Screenshot taken for Register_data
+[INFO ] 2023-08-31 11:32:05.022 [main] BaseClass - Submitted the registration form
+[INFO ] 2023-08-31 11:32:05.076 [main] BaseClass - Account is created
+[INFO ] 2023-08-31 11:32:11.380 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 11:32:12.057 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 11:32:13.065 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 11:32:17.582 [main] BaseClass - Navigating to checkout
+[INFO ] 2023-08-31 11:32:21.699 [main] BaseClass - Delivery Address is verified
+[INFO ] 2023-08-31 11:32:22.065 [main] BaseClass - Screenshot taken for Delivery_address
+[INFO ] 2023-08-31 11:32:22.314 [main] BaseClass - Verified the product in the checkout page
+[INFO ] 2023-08-31 11:32:22.562 [main] BaseClass - Screenshot taken for Order_In_Chkout
+[INFO ] 2023-08-31 11:32:22.901 [main] BaseClass - Verifyied place order message and clicking place order button
+[INFO ] 2023-08-31 11:32:27.123 [main] BaseClass - Screenshot taken for Payment_details
+[INFO ] 2023-08-31 11:32:31.819 [main] BaseClass - Card details filled and Clicked Payment button
+[INFO ] 2023-08-31 11:32:31.855 [main] BaseClass - Verified payment success message
+[INFO ] 2023-08-31 11:32:32.971 [main] BaseClass - Downloading the invoice
+[INFO ] 2023-08-31 11:32:35.981 [main] BaseClass - File is downloaded successfully and verified
+[INFO ] 2023-08-31 11:32:35.981 [main] BaseClass - Clicking continue...
+[INFO ] 2023-08-31 11:32:49.917 [main] BaseClass - Clicked Delete Account
+[INFO ] 2023-08-31 11:32:54.942 [main] BaseClass - Deletion of account confirmation message received and clicked Continue..
+[INFO ] 2023-08-31 11:32:57.555 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:33:06.386 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:33:07.127 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:33:07.128 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:33:07.822 [main] BaseClass - Scrolled down to footer suscription section
+[INFO ] 2023-08-31 11:33:08.410 [main] BaseClass - Screenshot taken for Scroll_To_Subscription
+[INFO ] 2023-08-31 11:33:10.662 [main] BaseClass - Scrolling up using Up Arrow button and verified
+[INFO ] 2023-08-31 11:33:11.076 [main] BaseClass - Screenshot taken for Scroll_up_button
+[INFO ] 2023-08-31 11:33:14.373 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 11:33:29.239 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 11:33:29.460 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 11:33:29.460 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 11:33:29.494 [main] BaseClass - Scrolled down to footer suscription section
+[INFO ] 2023-08-31 11:33:29.724 [main] BaseClass - Screenshot taken for Scroll_To_Subscription
+[INFO ] 2023-08-31 11:33:30.750 [main] BaseClass - Scrolling up using Up and verified
+[INFO ] 2023-08-31 11:33:30.984 [main] BaseClass - Screenshot taken for Scroll_Up
+[INFO ] 2023-08-31 11:33:31.802 [main] BaseClass - Quit the driver
+[DEBUG] 2023-08-31 12:01:03.313 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-08-31 12:01:03.398 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-08-31 12:01:03.399 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-08-31 12:01:03.433 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2913ca3e
+[DEBUG] 2023-08-31 12:01:03.672 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-08-31 12:01:03.676 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-08-31 12:01:03.685 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-08-31 12:01:03.691 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-08-31 12:01:03.695 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-08-31 12:01:03.704 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-08-31 12:01:03.708 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-08-31 12:01:03.720 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-08-31 12:01:03.727 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @762efe5d
+[DEBUG] 2023-08-31 12:01:03.738 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-08-31 12:01:03.740 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-08-31 12:01:03.743 [main] PlatformDependent - maxDirectMemory: 2103443456 bytes (maybe)
+[DEBUG] 2023-08-31 12:01:03.745 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\Thinroot\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-08-31 12:01:03.746 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-08-31 12:01:03.748 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-08-31 12:01:03.756 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-08-31 12:01:03.758 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-08-31 12:01:03.769 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-08-31 12:01:03.771 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-08-31 12:01:03.913 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-08-31 12:01:04.101 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-08-31 12:01:04.102 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-08-31 12:01:04.804 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-08-31 12:01:04.805 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-08-31 12:01:04.948 [main] GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-08-31 12:01:05.072 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2023-08-31 12:01:05.146 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-08-31 12:01:05.150 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-08-31 12:01:05.472 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2023-08-31 12:01:05.474 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2023-08-31 12:01:05.475 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-08-31 12:01:05.475 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-08-31 12:01:05.477 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-08-31 12:01:05.478 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-08-31 12:01:05.480 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-08-31 12:01:05.481 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-08-31 12:01:05.482 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-08-31 12:01:05.484 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-08-31 12:01:05.485 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-08-31 12:01:05.487 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-08-31 12:01:05.593 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-08-31 12:01:05.594 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-08-31 12:01:05.594 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-08-31 12:01:07.608 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 7472 (auto-detected)
+[DEBUG] 2023-08-31 12:01:07.632 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-08-31 12:01:07.634 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-08-31 12:01:07.681 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-08-31 12:01:07.689 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-08-31 12:01:07.784 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:12:f7:e4 (auto-detected)
+[DEBUG] 2023-08-31 12:01:08.118 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-08-31 12:01:08.122 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-08-31 12:01:08.123 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4d7598a5
+[DEBUG] 2023-08-31 12:01:08.316 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-08-31 12:01:08.323 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-08-31 12:01:08.324 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-08-31 12:01:08.325 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-08-31 12:01:08.326 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[DEBUG] 2023-08-31 12:01:10.245 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-08-31 12:01:10.901 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x898c7094ef7335ad
+[INFO ] 2023-08-31 12:01:17.690 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 12:01:18.970 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:01:18.972 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:01:19.086 [main] BaseClass - Logo is displayed
+[INFO ] 2023-08-31 12:01:19.086 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 12:01:24.312 [main] BaseClass - Screenshot taken for SignUp
+[INFO ] 2023-08-31 12:01:24.313 [main] BaseClass - Navigated to Signup/Register page
+[INFO ] 2023-08-31 12:01:25.576 [main] BaseClass - Screenshot taken for SignUp_data
+[INFO ] 2023-08-31 12:01:32.167 [main] BaseClass - Provided Name and Email and clicked Signup button
+[INFO ] 2023-08-31 12:01:32.205 [main] BaseClass - Signup form text visible and verified
+[INFO ] 2023-08-31 12:01:33.133 [main] BaseClass - Provided Title,Password,DoB, and checked check boxes
+[INFO ] 2023-08-31 12:01:38.830 [main] BaseClass - Provided Name,company, address,country, state,city,pincode,mobile no
+[INFO ] 2023-08-31 12:01:39.129 [main] BaseClass - Screenshot taken for Register_data
+[INFO ] 2023-08-31 12:01:47.897 [main] BaseClass - Submitted the registration form
+[INFO ] 2023-08-31 12:01:47.998 [main] BaseClass - Account is created
+[INFO ] 2023-08-31 12:01:54.431 [main] BaseClass - Quit the driver
+[DEBUG] 2023-08-31 12:08:37.101 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-08-31 12:08:37.154 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-08-31 12:08:37.156 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-08-31 12:08:37.197 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5f5c187d
+[DEBUG] 2023-08-31 12:08:37.440 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-08-31 12:08:37.442 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-08-31 12:08:37.452 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-08-31 12:08:37.457 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-08-31 12:08:37.461 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-08-31 12:08:37.466 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-08-31 12:08:37.471 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-08-31 12:08:37.478 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-08-31 12:08:37.486 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @762efe5d
+[DEBUG] 2023-08-31 12:08:37.492 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-08-31 12:08:37.493 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-08-31 12:08:37.499 [main] PlatformDependent - maxDirectMemory: 2103443456 bytes (maybe)
+[DEBUG] 2023-08-31 12:08:37.500 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\Thinroot\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-08-31 12:08:37.501 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-08-31 12:08:37.503 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-08-31 12:08:37.509 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-08-31 12:08:37.513 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-08-31 12:08:37.521 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-08-31 12:08:37.522 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-08-31 12:08:37.616 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-08-31 12:08:37.824 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-08-31 12:08:37.826 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-08-31 12:08:38.527 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-08-31 12:08:38.529 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-08-31 12:08:38.665 [main] GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-08-31 12:08:38.796 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2023-08-31 12:08:38.869 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-08-31 12:08:38.872 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-08-31 12:08:39.172 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2023-08-31 12:08:39.173 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2023-08-31 12:08:39.174 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-08-31 12:08:39.175 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-08-31 12:08:39.176 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-08-31 12:08:39.178 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-08-31 12:08:39.179 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-08-31 12:08:39.181 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-08-31 12:08:39.182 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-08-31 12:08:39.185 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-08-31 12:08:39.186 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-08-31 12:08:39.187 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-08-31 12:08:39.336 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-08-31 12:08:39.344 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-08-31 12:08:39.345 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-08-31 12:08:41.302 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 1096 (auto-detected)
+[DEBUG] 2023-08-31 12:08:41.320 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-08-31 12:08:41.321 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-08-31 12:08:41.352 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-08-31 12:08:41.360 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-08-31 12:08:41.422 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:12:f7:e4 (auto-detected)
+[DEBUG] 2023-08-31 12:08:41.735 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-08-31 12:08:41.745 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-08-31 12:08:41.752 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75fc223a
+[DEBUG] 2023-08-31 12:08:41.957 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-08-31 12:08:41.958 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-08-31 12:08:41.958 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-08-31 12:08:41.959 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-08-31 12:08:41.959 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[DEBUG] 2023-08-31 12:08:43.883 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-08-31 12:08:44.627 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x28a5922abc71f598
+[INFO ] 2023-08-31 12:08:50.671 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 12:08:53.557 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:08:53.558 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:08:53.780 [main] BaseClass - Logo is displayed
+[INFO ] 2023-08-31 12:08:53.780 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 12:08:57.455 [main] BaseClass - Screenshot taken for SignUp
+[INFO ] 2023-08-31 12:08:57.456 [main] BaseClass - Navigated to Signup/Register page
+[INFO ] 2023-08-31 12:08:58.345 [main] BaseClass - Screenshot taken for SignUp_data
+[INFO ] 2023-08-31 12:09:03.342 [main] BaseClass - Provided Name and Email and clicked Signup button
+[INFO ] 2023-08-31 12:09:03.371 [main] BaseClass - Signup form text visible and verified
+[INFO ] 2023-08-31 12:09:04.102 [main] BaseClass - Provided Title,Password,DoB, and checked check boxes
+[INFO ] 2023-08-31 12:09:07.216 [main] BaseClass - Provided Name,company, address,country, state,city,pincode,mobile no
+[INFO ] 2023-08-31 12:09:07.418 [main] BaseClass - Screenshot taken for Register_data
+[INFO ] 2023-08-31 12:09:13.430 [main] BaseClass - Submitted the registration form
+[INFO ] 2023-08-31 12:09:13.460 [main] BaseClass - Account is created
+[INFO ] 2023-08-31 12:09:25.943 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 12:09:26.158 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 12:09:29.480 [main] BaseClass - Clicked Delete Account
+[INFO ] 2023-08-31 12:09:34.358 [main] BaseClass - Deletion of account confirmation message received and clicked Continue..
+[INFO ] 2023-08-31 12:09:36.025 [main] BaseClass - Quit the driver
+[DEBUG] 2023-08-31 12:15:36.871 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-08-31 12:15:36.950 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-08-31 12:15:36.951 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-08-31 12:15:36.980 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1d7c9811
+[DEBUG] 2023-08-31 12:15:37.285 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-08-31 12:15:37.289 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-08-31 12:15:37.299 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-08-31 12:15:37.303 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-08-31 12:15:37.308 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-08-31 12:15:37.314 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-08-31 12:15:37.322 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-08-31 12:15:37.329 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-08-31 12:15:37.339 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @762efe5d
+[DEBUG] 2023-08-31 12:15:37.346 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-08-31 12:15:37.350 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-08-31 12:15:37.354 [main] PlatformDependent - maxDirectMemory: 2103443456 bytes (maybe)
+[DEBUG] 2023-08-31 12:15:37.356 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\Thinroot\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-08-31 12:15:37.357 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-08-31 12:15:37.358 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-08-31 12:15:37.394 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-08-31 12:15:37.400 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-08-31 12:15:37.413 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-08-31 12:15:37.415 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-08-31 12:15:37.535 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-08-31 12:15:37.747 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-08-31 12:15:37.749 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-08-31 12:15:38.616 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-08-31 12:15:38.617 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-08-31 12:15:38.763 [main] GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-08-31 12:15:38.888 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2023-08-31 12:15:38.963 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-08-31 12:15:38.964 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-08-31 12:15:39.368 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2023-08-31 12:15:39.378 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2023-08-31 12:15:39.379 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-08-31 12:15:39.380 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-08-31 12:15:39.382 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-08-31 12:15:39.383 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-08-31 12:15:39.384 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-08-31 12:15:39.385 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-08-31 12:15:39.386 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-08-31 12:15:39.388 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-08-31 12:15:39.426 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-08-31 12:15:39.428 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-08-31 12:15:39.569 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-08-31 12:15:39.570 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-08-31 12:15:39.575 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-08-31 12:15:42.002 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 12184 (auto-detected)
+[DEBUG] 2023-08-31 12:15:42.017 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-08-31 12:15:42.018 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-08-31 12:15:42.075 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-08-31 12:15:42.082 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-08-31 12:15:42.261 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:12:f7:e4 (auto-detected)
+[DEBUG] 2023-08-31 12:15:42.711 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-08-31 12:15:42.714 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-08-31 12:15:42.715 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75fc223a
+[DEBUG] 2023-08-31 12:15:42.930 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-08-31 12:15:42.931 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-08-31 12:15:42.931 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-08-31 12:15:42.932 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-08-31 12:15:42.932 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[DEBUG] 2023-08-31 12:15:45.452 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-08-31 12:15:46.197 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x0d41b605c6c97767
+[INFO ] 2023-08-31 12:15:54.735 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 12:15:55.851 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:15:55.856 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:15:55.948 [main] BaseClass - Logo is displayed
+[INFO ] 2023-08-31 12:15:55.948 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 12:15:59.256 [main] BaseClass - Screenshot taken for SignUp
+[INFO ] 2023-08-31 12:15:59.256 [main] BaseClass - Navigated to Signup/Register page
+[INFO ] 2023-08-31 12:15:59.673 [main] BaseClass - Screenshot taken for SignUp_data
+[INFO ] 2023-08-31 12:16:04.277 [main] BaseClass - Provided Name and Email and clicked Signup button
+[INFO ] 2023-08-31 12:16:04.614 [main] BaseClass - Signup form text visible and verified
+[INFO ] 2023-08-31 12:16:05.500 [main] BaseClass - Provided Title,Password,DoB, and checked check boxes
+[INFO ] 2023-08-31 12:16:08.582 [main] BaseClass - Provided Name,company, address,country, state,city,pincode,mobile no
+[INFO ] 2023-08-31 12:16:08.768 [main] BaseClass - Screenshot taken for Register_data
+[INFO ] 2023-08-31 12:16:15.058 [main] BaseClass - Submitted the registration form
+[INFO ] 2023-08-31 12:16:15.097 [main] BaseClass - Account is created
+[INFO ] 2023-08-31 12:16:25.543 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 12:16:26.220 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 12:16:30.195 [main] BaseClass - Clicked Delete Account
+[INFO ] 2023-08-31 12:16:35.801 [main] BaseClass - Deletion of account confirmation message received and clicked Continue..
+[INFO ] 2023-08-31 12:16:37.499 [main] BaseClass - Quit the driver
+[DEBUG] 2023-08-31 12:25:38.514 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-08-31 12:25:38.577 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-08-31 12:25:38.578 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-08-31 12:25:38.616 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@755b5f30
+[DEBUG] 2023-08-31 12:25:38.820 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-08-31 12:25:38.822 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-08-31 12:25:38.831 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-08-31 12:25:38.836 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-08-31 12:25:38.841 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-08-31 12:25:38.846 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-08-31 12:25:38.854 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-08-31 12:25:38.866 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-08-31 12:25:38.895 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @762efe5d
+[DEBUG] 2023-08-31 12:25:38.908 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-08-31 12:25:38.911 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-08-31 12:25:38.915 [main] PlatformDependent - maxDirectMemory: 2103443456 bytes (maybe)
+[DEBUG] 2023-08-31 12:25:38.917 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\Thinroot\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-08-31 12:25:38.920 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-08-31 12:25:38.922 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-08-31 12:25:38.928 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-08-31 12:25:38.932 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-08-31 12:25:38.944 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-08-31 12:25:38.945 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-08-31 12:25:39.067 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-08-31 12:25:39.288 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-08-31 12:25:39.292 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-08-31 12:25:40.137 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-08-31 12:25:40.139 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-08-31 12:25:40.299 [main] GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-08-31 12:25:40.447 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2023-08-31 12:25:40.535 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-08-31 12:25:40.536 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-08-31 12:25:40.918 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2023-08-31 12:25:40.920 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2023-08-31 12:25:40.921 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-08-31 12:25:40.922 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-08-31 12:25:40.922 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-08-31 12:25:40.923 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-08-31 12:25:40.926 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-08-31 12:25:40.927 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-08-31 12:25:40.928 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-08-31 12:25:40.933 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-08-31 12:25:40.934 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-08-31 12:25:40.936 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-08-31 12:25:41.039 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-08-31 12:25:41.039 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-08-31 12:25:41.040 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-08-31 12:25:42.969 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 11392 (auto-detected)
+[DEBUG] 2023-08-31 12:25:42.983 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-08-31 12:25:42.986 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-08-31 12:25:43.037 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-08-31 12:25:43.045 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-08-31 12:25:43.128 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:12:f7:e4 (auto-detected)
+[DEBUG] 2023-08-31 12:25:43.590 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-08-31 12:25:43.601 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-08-31 12:25:43.608 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@74d980f4
+[DEBUG] 2023-08-31 12:25:43.821 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-08-31 12:25:43.822 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-08-31 12:25:43.824 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-08-31 12:25:43.825 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-08-31 12:25:43.826 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[DEBUG] 2023-08-31 12:25:45.942 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-08-31 12:25:46.672 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd97fcf9c745211df
+[INFO ] 2023-08-31 12:25:54.984 [main] BaseClass - Launched the chrome browser
+[DEBUG] 2023-08-31 12:25:55.522 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:55.527 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:55.540 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.088 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.092 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.098 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.158 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.168 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.171 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.250 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.252 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.254 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.309 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.314 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.317 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.381 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.385 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.388 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.448 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.451 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.453 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.502 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.505 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.510 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.555 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.557 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.560 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.612 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.614 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.615 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.658 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.660 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.665 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-08-31 12:25:57.710 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-08-31 12:25:57.713 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-08-31 12:25:57.714 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-08-31 12:25:59.955 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:25:59.957 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:25:59.981 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 12:26:03.575 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 12:26:04.061 [main] BaseClass - Screenshot taken for Login_Data
+[INFO ] 2023-08-31 12:26:07.860 [main] BaseClass - Entered loginId, password and clicked login button 
+[INFO ] 2023-08-31 12:26:09.975 [main] BaseClass - Verifed for Invalid Login cerdentials
+[INFO ] 2023-08-31 12:26:10.074 [main] BaseClass - Screenshot taken for invalid_login
+[INFO ] 2023-08-31 12:27:00.881 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:27:00.881 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:27:00.881 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 12:27:03.728 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 12:27:04.246 [main] BaseClass - Screenshot taken for Login_Data
+[INFO ] 2023-08-31 12:27:08.473 [main] BaseClass - Entered loginId, password and clicked login button 
+[INFO ] 2023-08-31 12:27:10.583 [main] BaseClass - Verifed for Invalid Login cerdentials
+[INFO ] 2023-08-31 12:27:10.703 [main] BaseClass - Screenshot taken for invalid_login
+[INFO ] 2023-08-31 12:28:04.026 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:28:04.026 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:28:04.027 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 12:28:06.393 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 12:28:06.868 [main] BaseClass - Screenshot taken for Login_Data
+[INFO ] 2023-08-31 12:28:11.237 [main] BaseClass - Entered loginId, password and clicked login button 
+[INFO ] 2023-08-31 12:28:13.338 [main] BaseClass - Verifed for Invalid Login cerdentials
+[INFO ] 2023-08-31 12:28:13.454 [main] BaseClass - Screenshot taken for invalid_login
+[INFO ] 2023-08-31 12:29:04.602 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:29:04.602 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:29:04.603 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 12:29:06.695 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 12:29:07.338 [main] BaseClass - Screenshot taken for Login_Data
+[INFO ] 2023-08-31 12:29:11.300 [main] BaseClass - Entered loginId, password and clicked login button 
+[INFO ] 2023-08-31 12:29:13.391 [main] BaseClass - Verifed for Invalid Login cerdentials
+[INFO ] 2023-08-31 12:29:13.482 [main] BaseClass - Screenshot taken for invalid_login
+[INFO ] 2023-08-31 12:30:04.814 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:30:04.815 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:30:04.815 [main] BaseClass - Navigating to signup page
+[INFO ] 2023-08-31 12:30:07.238 [main] BaseClass - Navigated to login page and verified
+[INFO ] 2023-08-31 12:30:07.686 [main] BaseClass - Screenshot taken for Login_Data
+[INFO ] 2023-08-31 12:30:12.283 [main] BaseClass - Entered loginId, password and clicked login button 
+[INFO ] 2023-08-31 12:30:14.387 [main] BaseClass - Verifed for Invalid Login cerdentials
+[INFO ] 2023-08-31 12:30:14.498 [main] BaseClass - Screenshot taken for invalid_login
+[INFO ] 2023-08-31 12:31:05.201 [main] BaseClass - Quit the driver
+[DEBUG] 2023-08-31 12:35:42.398 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-08-31 12:35:42.457 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-08-31 12:35:42.459 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-08-31 12:35:42.493 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@d84b3a2
+[DEBUG] 2023-08-31 12:35:42.715 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-08-31 12:35:42.717 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-08-31 12:35:42.726 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-08-31 12:35:42.731 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-08-31 12:35:42.738 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-08-31 12:35:42.751 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-08-31 12:35:42.762 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-08-31 12:35:42.775 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-08-31 12:35:42.797 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @762efe5d
+[DEBUG] 2023-08-31 12:35:42.812 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-08-31 12:35:42.821 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-08-31 12:35:42.833 [main] PlatformDependent - maxDirectMemory: 2103443456 bytes (maybe)
+[DEBUG] 2023-08-31 12:35:42.848 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\Thinroot\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-08-31 12:35:42.856 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-08-31 12:35:42.868 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-08-31 12:35:42.878 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-08-31 12:35:42.888 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-08-31 12:35:42.916 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-08-31 12:35:42.926 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-08-31 12:35:43.080 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-08-31 12:35:43.386 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-08-31 12:35:43.395 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-08-31 12:35:44.248 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-08-31 12:35:44.250 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-08-31 12:35:44.420 [main] GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-08-31 12:35:44.556 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2023-08-31 12:35:44.633 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-08-31 12:35:44.637 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-08-31 12:35:44.988 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2023-08-31 12:35:44.989 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2023-08-31 12:35:44.990 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-08-31 12:35:44.990 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-08-31 12:35:44.991 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-08-31 12:35:44.992 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-08-31 12:35:44.994 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-08-31 12:35:44.996 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-08-31 12:35:44.997 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-08-31 12:35:44.998 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-08-31 12:35:44.999 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-08-31 12:35:45.001 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-08-31 12:35:45.091 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-08-31 12:35:45.092 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-08-31 12:35:45.095 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-08-31 12:35:47.294 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 11188 (auto-detected)
+[DEBUG] 2023-08-31 12:35:47.320 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-08-31 12:35:47.325 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-08-31 12:35:47.385 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-08-31 12:35:47.393 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-08-31 12:35:47.489 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:12:f7:e4 (auto-detected)
+[DEBUG] 2023-08-31 12:35:48.054 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-08-31 12:35:48.058 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-08-31 12:35:48.061 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@722071d6
+[DEBUG] 2023-08-31 12:35:48.284 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-08-31 12:35:48.285 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-08-31 12:35:48.287 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-08-31 12:35:48.288 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-08-31 12:35:48.288 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[DEBUG] 2023-08-31 12:35:50.575 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-08-31 12:35:51.342 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x91658cdb3f32d5e7
+[INFO ] 2023-08-31 12:35:56.757 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 12:35:57.385 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:35:57.385 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:35:58.492 [main] BaseClass - Added products from home page to the cart
+[INFO ] 2023-08-31 12:35:58.493 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 12:36:01.083 [main] BaseClass - Cart page verified
+[INFO ] 2023-08-31 12:36:01.678 [main] BaseClass - Screenshot taken for Product_added_TOCart
+[INFO ] 2023-08-31 12:36:01.680 [main] BaseClass - Navigating to checkout
+[INFO ] 2023-08-31 12:36:05.257 [main] BaseClass - Navigating to SignUp page
+[INFO ] 2023-08-31 12:36:06.792 [main] BaseClass - Screenshot taken for SignUp_data
+[INFO ] 2023-08-31 12:36:11.095 [main] BaseClass - Provided Name and Email and clicked Signup button
+[INFO ] 2023-08-31 12:36:11.774 [main] BaseClass - Provided Title,Password,DoB, and checked check boxes
+[INFO ] 2023-08-31 12:36:14.816 [main] BaseClass - Provided Name,company, address,country, state,city,pincode,mobile no
+[INFO ] 2023-08-31 12:36:15.014 [main] BaseClass - Screenshot taken for Register_data
+[INFO ] 2023-08-31 12:36:20.553 [main] BaseClass - Submitted the registration form
+[INFO ] 2023-08-31 12:36:20.859 [main] BaseClass - Account is created
+[INFO ] 2023-08-31 12:36:27.014 [main] BaseClass - Login message verification successful
+[INFO ] 2023-08-31 12:36:27.736 [main] BaseClass - Screenshot taken for Login_Msg
+[INFO ] 2023-08-31 12:36:28.740 [main] BaseClass - Navigating to cart page
+[INFO ] 2023-08-31 12:36:31.662 [main] BaseClass - Navigating to checkout
+[INFO ] 2023-08-31 12:36:34.778 [main] BaseClass - Delivery Address is verified
+[INFO ] 2023-08-31 12:36:34.910 [main] BaseClass - Screenshot taken for Delivery_address
+[INFO ] 2023-08-31 12:36:35.037 [main] BaseClass - Verified the product in the checkout page
+[INFO ] 2023-08-31 12:36:35.160 [main] BaseClass - Screenshot taken for Order_In_Chkout
+[INFO ] 2023-08-31 12:36:35.271 [main] BaseClass - Verifyied place order message and clicking place order button
+[INFO ] 2023-08-31 12:36:38.470 [main] BaseClass - Screenshot taken for Payment_details
+[INFO ] 2023-08-31 12:36:42.930 [main] BaseClass - Card details filled and Clicked Payment button
+[INFO ] 2023-08-31 12:36:42.986 [main] BaseClass - Verified payment success message
+[INFO ] 2023-08-31 12:36:44.295 [main] BaseClass - Downloading the invoice
+[INFO ] 2023-08-31 12:36:47.298 [main] BaseClass - File is downloaded successfully and verified
+[INFO ] 2023-08-31 12:36:47.299 [main] BaseClass - Clicking continue...
+[INFO ] 2023-08-31 12:36:53.397 [main] BaseClass - Clicked Delete Account
+[INFO ] 2023-08-31 12:36:56.608 [main] BaseClass - Deletion of account confirmation message received and clicked Continue..
+[INFO ] 2023-08-31 12:36:59.156 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 12:37:07.181 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 12:37:07.856 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:37:07.856 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:37:08.461 [main] BaseClass - Scrolled down to footer suscription section
+[INFO ] 2023-08-31 12:37:09.010 [main] BaseClass - Screenshot taken for Scroll_To_Subscription
+[INFO ] 2023-08-31 12:37:11.027 [main] BaseClass - Scrolling up using Up Arrow button and verified
+[INFO ] 2023-08-31 12:37:11.484 [main] BaseClass - Screenshot taken for Scroll_up_button
+[INFO ] 2023-08-31 12:37:14.011 [main] BaseClass - Quit the driver
+[INFO ] 2023-08-31 12:37:22.727 [main] BaseClass - Launched the chrome browser
+[INFO ] 2023-08-31 12:37:22.930 [main] BaseClass - Screenshot taken for hometest
+[INFO ] 2023-08-31 12:37:22.930 [main] BaseClass - Home Page Verified
+[INFO ] 2023-08-31 12:37:22.969 [main] BaseClass - Scrolled down to footer suscription section
+[INFO ] 2023-08-31 12:37:23.222 [main] BaseClass - Screenshot taken for Scroll_To_Subscription
+[INFO ] 2023-08-31 12:37:24.256 [main] BaseClass - Scrolling up using Up and verified
+[INFO ] 2023-08-31 12:37:24.486 [main] BaseClass - Screenshot taken for Scroll_Up
+[INFO ] 2023-08-31 12:37:25.227 [main] BaseClass - Quit the driver
